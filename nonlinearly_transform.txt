@@ -1,0 +1,13 @@
+i=1				len(r)        len(q)
+r1->q1				2  	2
+i=2
+r2->q2 , theta1->q3		3	4
+
+i=3
+r3->q4 , theta2->q5 , phi1->q6	4	4+3=7
+i=4
+r4->q7 , theta3->q8 , phi2->q9	5	7+3=10
+i=5
+r5->q10 , theta4->q11 , phi3->q12	6	10+3=13
+
+therefore，初始赋值q=[None]*(3 * (len(r)-1) - 2)
